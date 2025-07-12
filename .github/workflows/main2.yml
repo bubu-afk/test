@@ -13,4 +13,4 @@ jobs:
       - name: Building using Maven
         run: mvn clean install
       - name: Listing the new package
-        run: ls -la
+        run: ls -la target/
